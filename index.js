@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
       return response.json(); // Parse the JSON from the response
     })
     .then((data) => {
-      console.log(data); // Handle the parsed data
+      //   console.log(data); // Handle the parsed data
       joke.innerText = data.joke;
     })
     .catch((error) => {
